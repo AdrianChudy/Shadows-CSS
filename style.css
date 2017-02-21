@@ -1,0 +1,40 @@
+html {
+    font-size: 15px;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lavender;
+    margin: 1em;
+    font-size: 2em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1 {
+    padding: 1em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: limegreen;
+    text-shadow: darkgreen -0.05em -0.05em 0,
+                 lavender  -0.06em -0.06em 0,
+                 lavender  -0.07em -0.07em 0,
+                 lavender  -0.08em -0.08em 0,
+                 lavender  -0.09em -0.09em 0,
+                 grey      -0.10em -0.10em 0,
+                 grey      -0.11em -0.11em 0,
+                 grey      -0.12em -0.12em 0,
+                 grey      -0.13em -0.13em 0,
+                 grey      -0.14em -0.14em 0,
+                 grey      -0.15em -0.15em 0;
+}
+div {
+    width: 7em;
+    height: 7em;
+    margin: 1em auto;
+    border: solid 0.01em darkorange;
+    background-color: orange;
+    border-radius: 3em 0.5em 3em 0.5em;
+    box-shadow: inset orangered 0.3em 0.5em 2em,
+                inset darkorange 0.4em 0.6em 3em,
+                      grey 0.2em 0.2em 0.1em;
+}
